@@ -1,7 +1,7 @@
 # AI-Studio-螺旋桨RNA结构预测竞赛第5名方案
 
 ## 项目描述
-螺旋桨RNA结构预测竞赛第5名方案, 主要采用transformer + BiGRU的组合模型，最后对不同参数的模型在不同checkpoint下的推理结果进行集成. 
+螺旋桨RNA结构预测竞赛第5名方案, 主要采用transformer + BiGRU的组合模型，最后对不同参数的模型在不同checkpoint下的推理结果进行集成 **(取mean).** 
 
 **所有程序代码以及notebook文件都存放在work目录下**
 
