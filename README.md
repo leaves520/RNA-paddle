@@ -26,13 +26,13 @@
     │  test.py     ## 推理文件
     │  utils.py
     │  
-    ├─inference_checkpoint
+    ├─inference_checkpoint ## 保存checkpoints
     │  └─transformers_gru
     │            
-    ├─log
+    ├─log   ## 保存训练日志
     │      log_21051310.txt
     │      
-    ├─mydata
+    ├─mydata  ## 数据存放
     │  │  B_board_112_seqs.txt
     │  │  dev.txt
     │  │  seq_cb_ns_256_human_1gram
@@ -43,7 +43,7 @@
     │  │  vocab.txt
     │  │  
     │  └─ready_data
-    └─vocab
+    └─vocab  ## 字典
             dot_vocab
             seq_vocab
 ```
