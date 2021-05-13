@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=0 python main.py \
+--n_gram=1 \
+--lr=0.0003 \
+--save_dir=inference_checkpoint/graph/ \
+--dropout_rate=0.2 \
+--patience=10 \
+--epochs=500 \
+--d_model=256 \
+--hidden_inter=768 \
+--batch_size=32 \
+--num_layers=2 \
+--n_heads=4 \
+--graph \
+--skip \
+--gate \
+--seq_emb=mydata/seq_cb_ns_256_human_1gram

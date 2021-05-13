@@ -1,6 +1,4 @@
-paddlepaddle
-paddlehub
-visualdl
-paddleseg
-paddlenlp
-paddleocr
+paddlepaddle==2.0.2
+paddlehelix
+pgl
+gensim==3.8.3
