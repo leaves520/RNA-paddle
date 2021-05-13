@@ -48,7 +48,7 @@
             seq_vocab
 ```
 ## 使用方式
-在AI Studio上通过`1935513.ipynb`或终端 [运行本项目]()
+在AI Studio上通过`1935513.ipynb`或终端 [运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/1931307)
 
 **安装依赖**
 
