@@ -63,4 +63,4 @@
 **训练并推理：**
 
 - 在终端或notebook页面运行脚本 `!bash run_transformer.sh` 启动不同参数组合的模型**训练**并保存相应的checkpoints.
-- 在终端或notebook页面运行 `!python test.py --model_dir inference_checkpoint/transformers_gru --ensemble` 进行推理
+- 在终端或notebook页面运行 `!python test.py --model_dir inference_checkpoint/transformers_gru --ensemble` 进行推理结果保存路径`result/ensemble_transformers_gru/ensemble/predict.files.zip`
